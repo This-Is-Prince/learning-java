@@ -19,8 +19,8 @@ public class Test {
 
     public static void main(String[] args) {
         System.out.println("-----Initialization Block-----");
-        Test t1 = new Test();
-        Test t2 = new Test();
+        new Test();
+        new Test();
         new Test();
     }
 }
